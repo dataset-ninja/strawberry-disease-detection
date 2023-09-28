@@ -43,7 +43,7 @@ GITHUB_URL: str = "https://github.com/dataset-ninja/strawberry-disease-detection
 ##################################
 ### * Optional after uploading ###
 ##################################
-DOWNLOAD_ORIGINAL_URL: Optional[Union[str, dict]] = "https://www.kaggle.com/datasets/usmanafzaal/strawberry-disease-detection-dataset"
+DOWNLOAD_ORIGINAL_URL: Optional[Union[str, dict]] = ["https://www.kaggle.com/datasets/usmanafzaal/strawberry-disease-detection-dataset"]
 # Optional link for downloading original dataset (e.g. "https://some.com/dataset/download")
 
 CLASS2COLOR: Optional[Dict[str, List[str]]] = None
@@ -51,7 +51,7 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 
 # If you have more than the one paper, put the most relatable link as the first element of the list
 # Use dict key to specify name for a button
-PAPER: Optional[Union[str, List[str], Dict[str, str]]] = "https://www.mdpi.com/1424-8220/21/19/6565"
+PAPER: Optional[Union[str, List[str], Dict[str, str]]] = ["https://www.mdpi.com/1424-8220/21/19/6565"]
 BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
 REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = None
 
@@ -62,7 +62,7 @@ ORGANIZATION_NAME: Optional[Union[str, List[str]]] = ["Jeonbuk National Universi
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = ["https://www.jbnu.ac.kr/eng/"]
 
 # Set '__PRETEXT__' or '__POSTTEXT__' as a key with string value to add custom text. e.g. SLYTAGSPLIT = {'__POSTTEXT__':'some text}
-SLYTAGSPLIT: Optional[Dict[str, Union[List[str], str]]] = ["Also, the dataset includes ***level_1*** and ***level_2*** tags for test split"]
+SLYTAGSPLIT: Optional[Dict[str, Union[List[str], str]]] = {"__POSTTEST__":"Also, the dataset includes ***level_1*** and ***level_2*** tags for test split"}
 TAGS: Optional[List[str]] = None
 
 
