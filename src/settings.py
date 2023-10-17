@@ -20,7 +20,7 @@ HIDE_DATASET = False  # set False when 100% sure about repo quality
 ##################################
 # * After uploading to instance ##
 ##################################
-LICENSE: License = License.CC_BY_4_0()
+LICENSE: License = License.CC_BY_4_0(source_url="https://www.mdpi.com/1424-8220/21/19/6565")
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Agricultural(),Research.Agricultural()]
 CATEGORY: Category = Category.Agriculture()
 
