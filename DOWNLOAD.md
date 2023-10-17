@@ -1,6 +1,6 @@
 Dataset **Strawberry Disease Detection** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/V/Q/jF/lTLtqdSb9KXikMlA8JPvUw5cNRSyGGrd2m8LRMgRGdMIZwOeqvTXCyRGqEtLp8sjgC51nVuB9CKvpL7b1FQ6LTialPD4O9Oj5l7jOt5Geqc6P3FWvKqXE0AFdgjv.tar)
+ [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/l/K/OE/xT8DGAUNjwd3X6tMvGSG44uXPutELdxHSLXtkPIhfePYgLeL6pRxTsolWKW94VgIEDosPq4RGxbWiQV0e9IdMyNw9dCuULU4TjhUwGnhtlAPvxfIedfIORm4BtEc.tar)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
