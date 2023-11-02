@@ -57,6 +57,8 @@ REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = None
 
 CITATION_URL: Optional[str] = "https://www.mdpi.com/1424-8220/21/19/6565"
 AUTHORS: Optional[List[str]] = ["Usman Afzaal", "Bhuwan Bhattarai", "Yagya Raj Pandeya", "Joonwhoan Lee"]
+AUTHORS_CONTACTS: Optional[List[str]] = ["emh00@fayoum.edu.eg", "nashwa.elbendary@aast.edu"]
+
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = ["Jeonbuk National University"]
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = ["https://www.jbnu.ac.kr/eng/"]
@@ -110,6 +112,7 @@ def get_settings():
     settings["repository"] = REPOSITORY
     settings["citation_url"] = CITATION_URL
     settings["authors"] = AUTHORS
+    settings["authors_contacts"] = AUTHORS_CONTACTS
     settings["organization_name"] = ORGANIZATION_NAME
     settings["organization_url"] = ORGANIZATION_URL
     settings["slytagsplit"] = SLYTAGSPLIT
